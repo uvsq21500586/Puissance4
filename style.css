@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+h1 {
+    font-size: 3em;
+    color:#6000ff;
+}
+.choixcolonne {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.choixcolonneEnfant {
+    width: 30px;
+    margin-right: 6px;
+}
+
+#tour {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 2em;
+    font-weight: bold;
+}

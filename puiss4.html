@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+        <title>Puissance 4</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+</head>
+
+<body>
+        <h1>Puissance 4!</h1>
+        <button onclick="initialiser()">Nouvelle partie</button></br>
+        <div class="choixcolonne">
+                <button class="choixcolonneEnfant" id="b1" onclick="jouer(0)">Col 1</button>
+                <button class="choixcolonneEnfant" id="b2" onclick="jouer(1)">Col 2</button>
+                <button class="choixcolonneEnfant" id="b3" onclick="jouer(2)">Col 3</button>
+                <button class="choixcolonneEnfant" id="b4" onclick="jouer(3)">Col 4</button>
+                <button class="choixcolonneEnfant" id="b5" onclick="jouer(4)">Col 5</button>
+                <button class="choixcolonneEnfant" id="b6" onclick="jouer(5)">Col 6</button>
+                <button class="choixcolonneEnfant" id="b7" onclick="jouer(6)">Col 7</button></br>
+        </div>
+        <div>
+                <canvas id="jeu" width="300" height="270"></canvas></br>
+                <p id="tour"></p>
+        </div>
+        
+        
+        <script src="source.js"></script>
+</body>
+
+</html>
