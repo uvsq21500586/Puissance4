@@ -86,7 +86,7 @@ function jouer(n) {
     piles[n]++;
     if (piles[n] == 6) {
         //colonne pleine: on rend le bouton inaccessible
-        var button = document.getElementById("b" + n);
+        var button = document.getElementById("b" + (n+1));
         button.disabled = true;
     }
     //vérifier si c'est la fin de la partie
